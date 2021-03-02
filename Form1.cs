@@ -48,5 +48,10 @@ namespace LineBreakRemover
             if (textBox2.Text != "") 
                 Clipboard.SetText(textBox2.Text);
         }
+
+        private void textbox1_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+        }
     }
 }

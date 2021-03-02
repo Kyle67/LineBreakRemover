@@ -41,6 +41,7 @@ namespace LineBreakRemover
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(728, 153);
             this.textBox1.TabIndex = 0;
+            this.textBox1.Click += new System.EventHandler(this.textbox1_Click);
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
@@ -71,10 +72,10 @@ namespace LineBreakRemover
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Line Break Remover";
+            this.Resize += new System.EventHandler(this.Form1_Resize);
             this.ResumeLayout(false);
             this.PerformLayout();
-            this.Resize += new System.EventHandler(this.Form1_Resize);
 
         }
 
