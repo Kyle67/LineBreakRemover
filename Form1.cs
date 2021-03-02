@@ -27,7 +27,7 @@ namespace LineBreakRemover
             // Textbox 1 Location/Width/Height
 
             textBox1.Width = (int)(0.9 * this.Width);
-            textBox1.Height = (int)(0.3 * this.Height);
+            textBox1.Height = (int)(0.35 * this.Height);
             textBox1.Location = new Point((int)(this.Width * 0.05), (int)(this.Height * 0.05));
 
             // Textbox 2 Location/Width/Height
