@@ -22,13 +22,14 @@ namespace LineBreakRemover
             // Button Location/Width/Height
             button1.Width = (int)(0.2 * this.Width);
             button1.Height = (int)(0.1 * this.Height);
-            button1.Location = new Point(this.Width/2 - button1.Width/2, this.Height/2 - button1.Height/2);
+            button1.Location = new Point(this.Width / 2 - button1.Width / 2, this.Height / 2 - button1.Height / 2);
 
             // Textbox 1 Location/Width/Height
 
             textBox1.Width = (int)(0.9 * this.Width);
             textBox1.Height = (int)(0.35 * this.Height);
-            textBox1.Location = new Point((int)(this.Width * 0.05), (int)(this.Height * 0.05));
+            textBox1.Location = new Point((int)Math.Floor(this.Width * 0.05), (int)Math.Floor(this.Height * 0.05));
+            //textBox1.Text = textBox1.Width + " " + this.Width + " " + (int)Math.Floor(this.Width * 0.05);
 
             // Textbox 2 Location/Width/Height
             textBox2.Width = (int)(0.9 * this.Width);
